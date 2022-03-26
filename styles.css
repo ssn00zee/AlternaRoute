@@ -1,9 +1,13 @@
 @import 
 url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,400;0,500;0,700;1,200&display=swap');
 
+@import 
+url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400&display=swap');
+
 *{
     padding: 0;
     margin: 0;
+    font-size: 100%;
 }
 
 body {
@@ -15,13 +19,14 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: 2em;
+    margin-top: 8em;
 
 }
 h1 {
     font-family: 'bitter', serif;
     color: white;
     font-weight: 400;
+    font-size: 64px;
     /* margin-top: 5rem; */
     margin-left: 5rem;
 }
@@ -39,4 +44,117 @@ li {
     font-size: 1.5em;
     color: white;
 
+}
+
+.title {
+    display: flex;
+    font-family: 'fira sans', sans-serif;
+    font-size: 36px;
+    color: white;
+    margin-top: 42px;
+    margin-left: 15%;
+}
+
+
+
+.line {
+    margin-left: 10%;
+    width: 80%;
+    border-top: 2px solid black;
+    margin-top: 1rem;
+}
+
+.info {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 25px;
+}
+
+.info2 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+
+.logo_large {
+    height: 522px;
+    width: 522px;
+}
+
+br {
+    margin-bottom: 1em;
+}
+
+div.paragraph {
+    width: 678px;
+    height: 411px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 300;
+    color: white;
+}
+
+.title#title2 {
+    display: flex;
+    gap: 40%;
+}
+
+.alt_logo {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 47px;
+}
+
+.wordmark {
+    font-family: 'bitter', serif;
+    font-weight: bold;
+}
+
+.black_a {
+    font-size: 96px;
+}
+
+.white_a {
+    font-size: 96px;
+    color: white;
+}
+
+.palette{
+    display: flex;
+    gap: 39px;
+    margin-top: 25px;
+    justify-content: center;
+}
+
+.samp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 154px;
+    height: 154px;
+    border: 1px solid black;
+    font-family: 'fira sans', san-serif;
+    text-align: center;
+}
+
+.samp#black_p {
+    background-color: black;
+    color: white;
+}
+.samp#white_p {
+    background-color: #ffff;
+    color: black;
+}
+.samp#red_p {
+    background-color: #984447;
+    color: white;
+}
+.samp#yellow_p {
+    background-color: #cfd186;
+    color: black;
+}
+.samp#green_p {
+    background-color: #5B8C5A;
+    color: white;
 }

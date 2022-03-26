@@ -12,6 +12,7 @@ url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400&display=swa
 
 body {
     background-color: #5B8C5A;
+    margin-bottom: 30px;
 }
 
 
@@ -67,12 +68,14 @@ li {
 .info {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     margin-top: 25px;
 }
 
 .info2 {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     margin-top: 25px;
 }
 
@@ -125,6 +128,7 @@ div.paragraph {
     gap: 39px;
     margin-top: 25px;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .samp {
@@ -153,6 +157,14 @@ div.paragraph {
 .samp#yellow_p {
     background-color: #cfd186;
     color: black;
+}
+.samp#ebony_p {
+    background-color: #596157;
+    color: white;
+}
+.samp#olive_p {
+    background-color: #95AF70;
+    color: white;
 }
 .samp#green_p {
     background-color: #5B8C5A;

@@ -14,6 +14,10 @@ body {
     margin-bottom: 30px;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
 
 .top-row {
     display: flex;
@@ -274,3 +278,47 @@ div.paragraph {
 .textsize#bitter {
     font-family: 'bitter', serif;
 }
+
+.map_icon {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+/* 
+.map_icon img {
+    margin-left: 20%;
+} */
+
+.title#maps {
+    text-align: center;
+    margin: 0;
+    margin-top: 20px;
+}
+
+.transpo_icons {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 6rem;
+    gap: 40px;
+}
+
+.title#icons {
+    text-align: center;
+    margin: 0;
+    margin-top: 20px;
+}
+
+.mode_cont {
+    display: flex;
+    flex-direction: column;
+}
+
+.mode_icons {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
